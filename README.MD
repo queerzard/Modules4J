@@ -9,17 +9,18 @@ An extension library for java
 
 ```xml
 
-<repository>
-  <id>reposilite-repository</id>
-  <name>Seby's Project Repository</name>
-  <url>http://mcsilent.de:8091/{repository}</url>
-</repository>
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
-<dependency>
-  <groupId>com.github.sebyplays</groupId>
-  <artifactId>Modules4J</artifactId>
-  <version>1.0-SNAPSHOT</version>
-</dependency>
+	<dependency>
+	    <groupId>com.github.queerzard</groupId>
+	    <artifactId>Modules4J</artifactId>
+	    <version>9e16181650</version>
+	</dependency>
 ```
 
 ## Used libraries
