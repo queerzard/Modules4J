@@ -12,13 +12,6 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-    <repositories>
-        <repository>
-            <id>reposilite-repository</id>
-            <name>Seby's Project Repository</name>
-            <url>http://mcsilent.de:8091/{repository}</url>
-        </repository>
-    </repositories>
 
     <dependencies>
 
@@ -46,12 +39,6 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>McSilentDE</id>
-            <url>http://mcsilent.de:8091/releases</url>
-        </repository>
-    </distributionManagement>
     <build>
         <plugins>
             <plugin>
